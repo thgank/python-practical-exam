@@ -65,5 +65,5 @@ class HoroscopeBot:
         self.cur.close()
         self.conn.close()
 
-bot = HoroscopeBot(token='token', db_host='localhost', db_name='horoscope', db_user='postgres', db_pass='mercytop38')
+bot = HoroscopeBot(token='token', db_host='localhost', db_name='horoscope', db_user='postgres', db_pass='password')
 bot.run()
