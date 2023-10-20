@@ -4,7 +4,7 @@ import psycopg2, telebot, random
 db_host = "localhost"
 db_name = "horoscope"
 db_user = "postgres"
-db_pass = "mercytop38"
+db_pass = "password"
 
 # Connect to the database
 conn = psycopg2.connect(host=db_host, dbname=db_name, user=db_user, password=db_pass)
